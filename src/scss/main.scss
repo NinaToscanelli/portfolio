@@ -2,7 +2,9 @@
 @import "font";
 @import "base";
 @import "layout";
-@import "modules/example";
+@import "modules/language";
+@import "modules/mode";
+@import "modules/bottom";
 
 .row + .row {
   margin-top: 16px;

@@ -1,0 +1,21 @@
+.mode {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mode-night {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  fill: var(--yellow, #fcecdf);
+  stroke-width: 1px;
+  stroke: var(--black, #000);
+}
+
+.mode-day {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  fill: var(--black, #000);
+}
