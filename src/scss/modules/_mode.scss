@@ -5,17 +5,24 @@
 }
 
 .mode-night {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
   flex-shrink: 0;
-  fill: var(--yellow, #fcecdf);
-  stroke-width: 1px;
-  stroke: var(--black, #000);
+  background: var(--yellow, #fcecdf);
+  border: 1px solid var(--black, #000);
+  border-radius: 15px;
 }
 
 .mode-day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
   flex-shrink: 0;
-  fill: var(--black, #000);
+  background: var(--black, #000);
+  border-radius: 15px;
 }
