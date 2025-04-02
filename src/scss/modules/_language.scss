@@ -21,6 +21,10 @@
   border-radius: 15px;
   border: 1px solid var(--black, #000);
   background: var(--yellow, #fcecdf);
+
+  span {
+    transform: translateY(2px);
+  }
 }
 
 .language-english {
@@ -38,4 +42,8 @@
   flex-shrink: 0;
   border-radius: 15px;
   background: var(--black, #000);
+
+  span {
+    transform: translateY(2px);
+  }
 }
