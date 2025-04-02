@@ -1,0 +1,19 @@
+.projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-image-wrapper {
+  position: relative;
+
+  img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+    opacity: 30%;
+  }
+}

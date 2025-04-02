@@ -1,0 +1,26 @@
+.close {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  padding: 4px 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid var(--black, #000);
+  background: var(--yellow, #fcecdf);
+}
+
+.close-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.close-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 30;
+}

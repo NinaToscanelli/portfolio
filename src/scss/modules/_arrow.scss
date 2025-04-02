@@ -1,0 +1,29 @@
+.arrow {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.arrow-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  background: var(--yellow, #fcecdf);
+  border: 1px solid var(--black, #000);
+  border-radius: 15px;
+}
+
+.arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  background: var(--yellow, #fcecdf);
+  border: 1px solid var(--black, #000);
+  border-radius: 15px;
+}
