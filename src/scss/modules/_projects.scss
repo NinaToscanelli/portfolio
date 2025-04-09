@@ -19,6 +19,25 @@
   }
 
   h2 {
+    position: relative;
     z-index: 2;
+  }
+}
+
+.projects-image-wrapper {
+  img {
+    transition: transform 0.2s;
+  }
+
+  img:hover {
+    opacity: 100%;
+  }
+
+  .projects-title {
+    transition: transform 0.2s;
+  }
+
+  .projects-title:hover {
+    opacity: 0%;
   }
 }
