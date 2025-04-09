@@ -12,10 +12,25 @@
   img {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 30px;
     transform: translateY(-50%);
     z-index: 1;
     opacity: 30%;
+    height: calc(100vh - 300px);
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  video {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    transform: translateY(-50%);
+    z-index: 1;
+    opacity: 30%;
+    height: calc(100vh - 300px);
+    max-width: 100%;
+    object-fit: contain;
   }
 
   h2 {
@@ -26,18 +41,38 @@
 
 .projects-image-wrapper {
   img {
-    transition: transform 0.2s;
+    transition: transform 0.3s;
   }
 
-  img:hover {
-    opacity: 100%;
+  video {
+    transition: transform 0.3s;
   }
 
   .projects-title {
-    transition: transform 0.2s;
+    transition: transform 0.3s;
   }
 
-  .projects-title:hover {
-    opacity: 0%;
+  .about-title {
+    transition: transform 0.3s;
   }
+
+  &:hover {
+    img {
+      opacity: 100%;
+    }
+    video {
+      opacity: 100%;
+    }
+    .projects-title {
+      opacity: 0%;
+    }
+
+    .about-title {
+      opacity: 0%;
+    }
+  }
+}
+
+.swiper-slide-active {
+  z-index: 1;
 }
