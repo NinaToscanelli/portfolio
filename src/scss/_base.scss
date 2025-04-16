@@ -9,15 +9,6 @@ body {
   background: var(--yellow, #fcecdf);
 }
 
-body.night {
-  .link {
-    background-color: #000;
-  }
-  .nav {
-    color: #fcecdf;
-  }
-}
-
 a {
   color: inherit;
   text-decoration: none;

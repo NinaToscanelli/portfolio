@@ -4,19 +4,7 @@
   gap: 5px;
 }
 
-.mode-night {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  flex-shrink: 0;
-  background: var(--yellow, #fcecdf);
-  border: 1px solid var(--black, #000);
-  border-radius: 15px;
-}
-
-.mode-day {
+.mode-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,4 +14,11 @@
   background: var(--black, #000);
   border: 1px solid var(--yellow, #fcecdf);
   border-radius: 15px;
+}
+
+.mode-link.is-active {
+  width: px;
+  height: 28px;
+  background: var(--yellow, #fcecdf);
+  border: 1px solid var(--black, #000);
 }
