@@ -27,6 +27,33 @@
   }
 
   .sun {
+    fill: #fcecdf;
+  }
+}
+
+.night .mode-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  background: var(--black, #fcecdf);
+  border: 1px solid var(--yellow, #000);
+  border-radius: 15px;
+}
+
+.night .mode-link.is-active {
+  width: 28px;
+  height: 28px;
+  background: var(--yellow, #000);
+  border: 1px solid var(--black, #fcecdf);
+
+  .moon {
     fill: black;
+  }
+
+  .sun {
+    fill: #fcecdf;
   }
 }
