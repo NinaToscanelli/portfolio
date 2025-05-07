@@ -34,7 +34,7 @@
 
 .arrow-left {
   transition-property: color;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .arrow-left:hover {
@@ -45,7 +45,7 @@
 
 .arrow-right {
   transition-property: color;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .arrow-right:hover {
@@ -70,7 +70,7 @@
 
 .night .arrow-left {
   transition-property: color;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .night .arrow-left:hover {
@@ -81,7 +81,7 @@
 
 .night .arrow-right {
   transition-property: color;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .night .arrow-right:hover {

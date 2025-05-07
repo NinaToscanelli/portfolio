@@ -31,7 +31,7 @@
 
 .bottom-button {
   transition-property: color;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .bottom-button:hover {
@@ -48,7 +48,7 @@
 
 .night .bottom-button {
   transition-property: color;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .night .bottom-button:hover {

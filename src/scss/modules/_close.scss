@@ -32,7 +32,7 @@
 
 .close {
   transition-property: color;
-  transition: transform 0.3s;
+  transition: 0.3s;
 }
 
 .close:hover {
@@ -45,4 +45,15 @@
   background-color: black;
   color: #fcecdf;
   border: #fcecdf;
+}
+
+.night .close {
+  transition-property: color;
+  transition: 0.3s;
+}
+
+.night .close:hover {
+  border: #000;
+  background-color: #fcecdf;
+  color: #000;
 }
