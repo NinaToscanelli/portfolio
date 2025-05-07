@@ -41,19 +41,19 @@
 
 .projects-image-wrapper {
   img {
-    transition: transform 0.3s;
+    transition: opacity 0.3s;
   }
 
   video {
-    transition: transform 0.3s;
+    transition: opacity 0.3s;
   }
 
   .projects-title {
-    transition: transform 0.3s;
+    transition: opacity 0.3s;
   }
 
   .about-title {
-    transition: transform 0.3s;
+    transition: opacity 0.3s;
   }
 
   &:hover {

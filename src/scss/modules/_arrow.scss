@@ -6,24 +6,86 @@
 
 .arrow-left {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 30px;
   height: 30px;
-  flex-shrink: 0;
-  background: var(--yellow, #fcecdf);
-  border: 1px solid var(--black, #000);
+  padding: 4px 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   border-radius: 15px;
+  border: 1px solid var(--black, #000);
+  background: var(--yellow, #fcecdf);
 }
 
 .arrow-right {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 30px;
   height: 30px;
-  flex-shrink: 0;
-  background: var(--yellow, #fcecdf);
-  border: 1px solid var(--black, #000);
+  padding: 4px 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   border-radius: 15px;
+  border: 1px solid var(--black, #000);
+  background: var(--yellow, #fcecdf);
+}
+
+.arrow-left {
+  transition-property: color;
+  transition: transform 0.3s;
+}
+
+.arrow-left:hover {
+  border: #fcecdf;
+  background-color: #000;
+  color: #fcecdf;
+}
+
+.arrow-right {
+  transition-property: color;
+  transition: transform 0.3s;
+}
+
+.arrow-right:hover {
+  border: #fcecdf;
+  background-color: #000;
+  color: #fcecdf;
+}
+
+.night .arrow-left {
+  width: 30px;
+  height: 30px;
+  background: var(--black, #000);
+  border: 1px solid var(--yellow, #fcecdf);
+}
+
+.night .arrow-right {
+  width: 30px;
+  height: 30px;
+  background: var(--black, #000);
+  border: 1px solid var(--yellow, #fcecdf);
+}
+
+.night .arrow-left {
+  transition-property: color;
+  transition: transform 0.3s;
+}
+
+.night .arrow-left:hover {
+  border: black;
+  background-color: #fcecdf;
+  color: black;
+}
+
+.night .arrow-right {
+  transition-property: color;
+  transition: transform 0.3s;
+}
+
+.night .arrow-right:hover {
+  border: black;
+  background-color: #fcecdf;
+  color: black;
 }

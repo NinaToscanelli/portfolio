@@ -6,3 +6,16 @@
   justify-content: center;
   gap: 60px;
 }
+
+.portfolio-list h2 {
+  transition: transform 0.3s;
+}
+
+.portfolio-list h2:hover {
+  transform: scale(1.1);
+}
+
+.night .portfolio {
+  background-color: black;
+  color: #fcecdf;
+}

@@ -28,3 +28,31 @@
   bottom: 30;
   z-index: 1;
 }
+
+.bottom-button {
+  transition-property: color;
+  transition: transform 0.3s;
+}
+
+.bottom-button:hover {
+  border: #fcecdf;
+  background-color: #000;
+  color: #fcecdf;
+}
+
+.night .bottom-button {
+  background-color: black;
+  color: #fcecdf;
+  border: 1px solid var(--black, #fcecdf);
+}
+
+.night .bottom-button {
+  transition-property: color;
+  transition: transform 0.3s;
+}
+
+.night .bottom-button:hover {
+  border: black;
+  background-color: #fcecdf;
+  color: black;
+}

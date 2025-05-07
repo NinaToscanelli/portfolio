@@ -9,3 +9,18 @@ const swiper = new Swiper(".swiper-container", {
     prevEl: ".arrow-left",
   },
 });
+
+var day = document.querySelector(".mode-day");
+var night = document.querySelector(".mode-night");
+
+night.addEventListener("click", function () {
+  night.classList.remove("is-active");
+  day.classList.add("is-active");
+  document.body.classList.add("night");
+});
+
+day.addEventListener("click", function () {
+  day.classList.remove("is-active");
+  night.classList.add("is-active");
+  document.body.classList.remove("night");
+});

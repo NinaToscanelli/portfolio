@@ -4,3 +4,17 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.home {
+  transition: transform 0.3s;
+}
+
+.home:hover {
+  transform: scale(1.1);
+}
+
+.night .home {
+  background-color: black;
+  color: #fcecdf;
+  border: #fcecdf;
+}

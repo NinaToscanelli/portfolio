@@ -34,12 +34,22 @@
   color: #fcecdf;
 }
 
-// body.night {
-//   .link {
-//     background-color: black
-//   }
+.night .language-link {
+  width: 28px;
+  height: 28px;
+  color: #fcecdf;
+  border: 1px solid var(--yellow, #fcecdf);
+  background: var(--black, #000);
+  span {
+    transform: translateY(2px);
+    display: block;
+  }
+}
 
-//   .nav {
-//     color: white;
-//   }
-// }
+.night .language-link.is-active {
+  width: 30px;
+  height: 30px;
+  color: var(--black, #000);
+  border: 1px solid var(--black, #000);
+  background: var(--yellow, #fcecdf);
+}

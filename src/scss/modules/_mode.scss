@@ -17,8 +17,16 @@
 }
 
 .mode-link.is-active {
-  width: px;
+  width: 28px;
   height: 28px;
   background: var(--yellow, #fcecdf);
   border: 1px solid var(--black, #000);
+
+  .moon {
+    fill: #fcecdf;
+  }
+
+  .sun {
+    fill: black;
+  }
 }

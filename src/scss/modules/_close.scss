@@ -29,3 +29,20 @@
   top: 30;
   z-index: 2;
 }
+
+.close {
+  transition-property: color;
+  transition: transform 0.3s;
+}
+
+.close:hover {
+  border: #fcecdf;
+  background-color: #000;
+  color: #fcecdf;
+}
+
+.night .close-button {
+  background-color: black;
+  color: #fcecdf;
+  border: #fcecdf;
+}
