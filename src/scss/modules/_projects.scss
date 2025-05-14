@@ -21,10 +21,10 @@
     object-fit: contain;
   }
 
-  video {
+  .video-container {
     position: absolute;
     right: 0;
-    top: 30px;
+    align-items: center;
     transform: translateY(-50%);
     z-index: 1;
     opacity: 30%;
@@ -44,7 +44,7 @@
     transition: opacity 0.3s;
   }
 
-  video {
+  .video-container {
     transition: opacity 0.3s;
   }
 
@@ -60,7 +60,7 @@
     img {
       opacity: 100%;
     }
-    video {
+    .video-container {
       opacity: 100%;
     }
     .projects-title {
