@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>menu | Nina Toscanelli</title>
+    <title>catégories | Nina Toscanelli</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
@@ -14,7 +14,7 @@
         <div class="row">
           <div class="col-6">
             <div class="mode">
-              <div class="mode-link mode-night is-active">
+              <button class="mode-link mode-night is-active">
                 <svg
                   width="17"
                   height="17"
@@ -30,8 +30,8 @@
                     class="moon"
                   />
                 </svg>
-              </div>
-              <div class="mode-link mode-day">
+              </button>
+              <button class="mode-link mode-day">
                 <svg
                   width="20"
                   height="20"
@@ -47,16 +47,16 @@
                     class="sun"
                   />
                 </svg>
-              </div>
+              </button>
             </div>
           </div>
           <div class="col-6">
             <div class="language">
-              <div class="language-link">
-                <a href="portfolio-fr.html"><span>fr</span></a>
-              </div>
               <div class="language-link is-active">
-                <a href="portfolio.html"><span>en</span></a>
+                <a href="categorie.html"><span>fr</span></a>
+              </div>
+              <div class="language-link">
+                <a href="category.html"><span>en</span></a>
               </div>
             </div>
           </div>
@@ -68,11 +68,15 @@
         <div class="row">
           <div class="col-8 offset-1">
             <div class="portfolio-list">
-              <h2><a href="graphic-design.html">GrAphIc dEsIgn</a></h2>
-              <h2><a href="photography.html">PhOtOgrAphY</a></h2>
-              <h2><a href="video.html">VideO</a></h2>
-              <h2><a href="ui.html">UsEr IntErfAcE</a></h2>
-              <h2><a>ModElIng 3d</a></h2>
+              <h2>
+                <a href="conception-graphique.html">ConcEptIOn-grAphIquE</a>
+              </h2>
+              <h2><a href="photographie.html">PhOtOgrAphIE</a></h2>
+              <h2><a href="vidéo.html">VidéO</a></h2>
+              <h2>
+                <a href="interface-utilisateur.html">IntErfAcE UtIlIsAtEUr</a>
+              </h2>
+              <h2><a href="modelisation-3d.html">ModÉlIsAtIOn 3d</a></h2>
             </div>
           </div>
         </div>
@@ -82,8 +86,8 @@
           <div class="row">
             <div class="col-12">
               <div class="bottom">
-                <div class="bottom-button"><a href="about.html">about</a></div>
-                <div class="bottom-button"><a href="index.html">home</a></div>
+                <a href="a-propos.html" class="bottom-button">à propos</a>
+                <a href="maison.html" class="bottom-button">maison</a>
               </div>
             </div>
           </div>
