@@ -4,14 +4,32 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 60px;
+  gap: 40px;
 }
 
-.portfolio-list h2 {
+@media (min-width: 576px) {
+  .portfolio-list {
+    gap: 60px;
+  }
+}
+
+.portfolio-list ul {
+  margin: 0;
+}
+
+.portfolio-list li {
   transition: transform 0.3s;
+  list-style: none;
+  font-size: 40px;
 }
 
-.portfolio-list h2:hover {
+@media (min-width: 576px) {
+  .portfolio-list li {
+    font-size: 60px;
+  }
+}
+
+.portfolio-list li:hover {
   transform: scale(1.1);
 }
 
