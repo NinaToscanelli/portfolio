@@ -4,6 +4,15 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.about-text {
+  margin-top: 0%;
+
+  @media (min-width: 768px) {
+    margin-top: 50%;
+  }
+}
+
 .night .about {
   background-color: black;
   color: #fcecdf;
