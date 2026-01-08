@@ -72,14 +72,17 @@ p a {
 }
 
 .cursor-dot {
-  position: fixed;
-  width: 9px;
-  height: 9px;
-  background-color: black;
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
+  cursor: none;
+  @media (min-width: 768px) {
+    position: fixed;
+    width: 9px;
+    height: 9px;
+    background-color: black;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+  }
 }
 
 .night .cursor-dot {
