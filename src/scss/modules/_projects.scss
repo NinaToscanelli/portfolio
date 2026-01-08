@@ -1,5 +1,5 @@
 .projects {
-  height: 40vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,21 +10,22 @@
   }
 }
 
+.project-description {
+  margin-top: 40px;
+
+  @media (min-width: 990px) {
+    margin-top: 0;
+  }
+}
+
 .projects-image-wrapper {
   position: relative;
 
   img {
     z-index: 1;
     opacity: 30%;
-    height: calc(100vh - 300px);
-    max-width: 100%;
-    object-fit: contain;
-  }
-
-  .video-container {
-    z-index: 1;
-    opacity: 30%;
-    height: calc(100vh - 300px);
+    height: auto;
+    max-height: 80vh;
     max-width: 100%;
     object-fit: contain;
   }
@@ -32,23 +33,21 @@
   h2 {
     position: absolute;
     z-index: 2;
-    margin-top: 90%;
+    top: 50%;
+    transform: translateY(-50%);
     left: -25%;
     max-width: 100%;
 
     @media (min-width: 768px) {
       left: -30%;
-      margin-top: 100%;
     }
 
     @media (min-width: 990px) {
       left: -30%;
-      margin-top: 70%;
     }
 
     @media (min-width: 1200px) {
       left: -30%;
-      margin-top: 50%;
     }
   }
 }

@@ -4,12 +4,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 @media (min-width: 576px) {
   .portfolio-list {
-    gap: 60px;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 990px) {
+  .portfolio-list {
+    gap: 40px;
   }
 }
 
@@ -20,7 +26,13 @@
 .portfolio-list li {
   transition: transform 0.3s;
   list-style: none;
-  font-size: 40px;
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  .portfolio-list li {
+    font-size: 45px;
+  }
 }
 
 @media (min-width: 990px) {
