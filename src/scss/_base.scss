@@ -51,10 +51,14 @@ h2 {
 p {
   color: var(--black, #000);
   text-align: right;
-  font-size: 15px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  @media (min-width: 990px) {
+    font-size: 15px;
+  }
 }
 
 .night {
