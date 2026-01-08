@@ -40,4 +40,28 @@ document.addEventListener("DOMContentLoaded", function () {
       sessionStorage.setItem("mode", "day");
     });
   }
+
+  const cursor = document.getElementById("cursor");
+
+  let mouseX = 0,
+    mouseY = 0;
+  let dotX = 0,
+    dotY = 0;
+
+  document.addEventListener("mousemove", (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+  });
+
+  function animate() {
+    dotX += (mouseX - dotX) * 0.1;
+    dotY += (mouseY - dotY) * 0.1;
+
+    cursor.style.left = dotX + "px";
+    cursor.style.top = dotY + "px";
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
 });

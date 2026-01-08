@@ -1,5 +1,4 @@
 .projects {
-  min-height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,9 +24,13 @@
     z-index: 1;
     opacity: 30%;
     height: auto;
-    max-height: 80vh;
+    max-height: 60vh;
     max-width: 100%;
     object-fit: contain;
+
+    @media (min-width: 990px) {
+      max-height: 80vh;
+    }
   }
 
   h2 {
@@ -117,6 +120,13 @@
   h2 {
     color: #fcecdf;
   }
+  p {
+    color: #fcecdf;
+  }
+}
+
+.night .project-description {
+  background-color: black;
   p {
     color: #fcecdf;
   }
