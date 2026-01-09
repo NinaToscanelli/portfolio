@@ -33,6 +33,14 @@
     }
   }
 
+  img {
+    transition: transform 0.3s ease-out;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+
   h2 {
     position: absolute;
     z-index: 2;
