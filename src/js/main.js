@@ -1,11 +1,16 @@
-import Swiper, { Navigation, Pagination, EffectFade } from "swiper";
+import Swiper from "swiper";
+import { Navigation, Pagination, EffectFade } from "swiper";
 
 document.addEventListener("DOMContentLoaded", function () {
   Swiper.use([Navigation, Pagination, EffectFade]);
 
   const swiper = new Swiper(".swiper-container", {
     slidesPerView: 1,
+    loop: true,
     effect: "fade",
+    fadeEffect: {
+      crossFade: true,
+    },
     navigation: {
       nextEl: ".arrow-right",
       prevEl: ".arrow-left",
